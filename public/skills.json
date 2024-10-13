@@ -1,0 +1,48 @@
+[
+    {
+      "image": "https://i.ibb.co.com/Nr6X5SC/Git-Icon-1788-C.png",
+      "name": "Git",
+      "state": "Version Controller"
+    },
+    {
+      "image": "https://i.ibb.co.com/nsMfcM5/download.png",
+      "name": "Tailwind",
+      "state": "CSS Framework"
+    },
+    {
+      "image": "https://i.ibb.co.com/7Jwp35H/Java-Script-logo.png",
+      "name": "Javascript",
+      "state": "Programming Language"
+    },
+    {
+      "image": "https://i.ibb.co.com/7G6nvV9/images-1.png",
+      "name": "React",
+      "state": "Frontend Library"
+    },
+    {
+      "image": "https://i.ibb.co.com/L5nfCNM/4a2be73b1e2efb44355436c40bf496dd.jpg",
+      "name": "Next Js",
+      "state": "React Framework"
+    },
+    {
+      "image": "https://i.ibb.co.com/mNcpJZH/images-2.png",
+      "name": "Firebase",
+      "state": "Backend as a service"
+    },
+    {
+      "image": "https://i.ibb.co.com/1LvtL45/images-3.png",
+      "name": "Node Js",
+      "state": "Javascript Runtime"
+    },
+    {
+      "image": "https://i.ibb.co.com/BfTH5SB/mongodb9740-logowik-com.webp",
+      "name": "MongoDB",
+      "state": "NoSQL Database"
+    },
+    {
+      "image": "https://i.ibb.co.com/Sy2H4md/Visual-Studio-Code-1-35-icon-svg.png",
+      "name": "Vs Code",
+      "state": "Code Editor"
+    }
+  ]
+  
