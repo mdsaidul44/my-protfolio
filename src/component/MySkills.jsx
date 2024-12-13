@@ -5,7 +5,7 @@ import React from 'react';
 const MySkills = ({ skill }) => {
     const { image, name, state } = skill
     return (
-        <div className=''>
+        <div id='skill' className=''>
             <div className='lg:w-80 justify-around  py-3 rounded border-2 border-sky-800 hover:cursor-pointer flex'>
                 <div>
                     <img className='w-14 h-14' src={image} alt="" />

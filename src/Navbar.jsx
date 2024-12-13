@@ -4,7 +4,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-base-300">
+            <div className="navbar fixed top-0 bg-base-300">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,22 +24,22 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>About</a></li>
-                            <li><a>Skill</a></li>
-                            <li><a>Projects</a></li>
-                            <li><a>Education</a></li>
-                            <li><a>Contact</a></li>
+                            <li><a href='#home'>Home</a></li>
+                            <li><a href='#skill'>Skill</a></li>
+                            <li><a href='#project'>Projects</a></li>
+                            <li><a href='#education'>Education</a></li>
+                            <li><a href='#contact'>Contact</a></li>
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-3xl font-bold text-cyan-700">Md Saidul</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal font-bold px-1">
-                        <li><a>About</a></li>
-                        <li><a>Skill</a></li>
-                        <li><a>Projects</a></li>
-                        <li><a>Education</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a href='#home'>Home</a></li>
+                        <li><a href='#skill'>Skill</a></li>
+                        <li><a href='#project'> Projects</a></li>
+                        <li><a href='#education'>Education</a></li>
+                        <li><a href='#contact'>Contact</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

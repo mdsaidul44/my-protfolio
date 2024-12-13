@@ -13,7 +13,7 @@ import { FaFacebook } from "react-icons/fa6";
 
 const Contact = () => {
     return (
-        <div className='border-2 mt-20'>
+        <div id='contact' className='border-2 mt-20'>
             <h1 className='text-center font-bold text-cyan-500 text-3xl mt-10'>Contact</h1>
             <div className='lg:flex lg:mx-32 p-4 my-10'>
                 <div className='font-semibold mt-14'>
@@ -31,20 +31,20 @@ const Contact = () => {
                 <div className='lg:w-1/2'>
                     <div className="  min-h-screen">
                         <div className="hero-content flex-col lg:flex-row-reverse">
-                            <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                            <div className="  bg-base-200 rounded-xl w-full max-w-sm shrink-0 shadow-2xl">
                                 <form className="card-body">
-                                    <div className="form-control">
-                                        <label className="label">
-                                            <span className="label-text">Email</span>
-                                        </label>
-                                        <input type="email" placeholder="email" className="input input-bordered" required />
-                                    </div>
-                                    <div className="form-control">
+                                <div className="form-control">
                                         <label className="label">
                                             <span className="label-text">Name</span>
                                         </label>
                                         <input type="text" placeholder="Name" className="input input-bordered" required />
                                     </div>
+                                    <div className="form-control">
+                                        <label className="label">
+                                            <span className="label-text">Email</span>
+                                        </label>
+                                        <input type="email" placeholder="email" className="input input-bordered" required />
+                                    </div> 
                                     <label className="form-control">
                                         <div className="label">
                                             <span className="label-text">Message</span>
